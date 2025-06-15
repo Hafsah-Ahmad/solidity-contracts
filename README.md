@@ -1,13 +1,43 @@
-This is a simple "Hello World" smart contract written in Solidity.
+ 📁 Contracts Folder
 
-Contract Overview
+This folder contains Solidity practice contracts created to understand key foundational concepts like function visibility, inheritance, and internal logic.
 
-'''solidity
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0;
+Included Contracts
 
-contract HelloWorld {
-    function sayHello() public pure returns (string memory) {
-        return "Hello, World!";
-    }
-}
+1.HelloWorld.sol=
+- A basic contract that returns a simple "Hello World" message.
+- Concepts practiced:
+  - string data type
+  - Return values
+
+2.Public Private Function access.sol=
+- Demonstrates the use of public functions to access private functions.
+- Concepts practiced:
+  - Calling private functions externally by using public functions.
+  - Accessing private data and methods from outside the contract
+
+3.InternalFunction.sol=
+- Focuses on internal function behavior.
+- Concepts practiced:
+  - Internal function declaration
+  - Accessing internal functions within the contract or via inheritance
+  - 
+4. Inheritance.sol=
+- Shows how Solidity contracts can inherit functionality.
+- Concepts practiced:
+  - Base and derived contracts
+  - Function overriding
+
+
+How to Use=
+You can copy each of these contracts into [Remix IDE](https://remix.ethereum.org/), compile, and deploy them individually for testing and practice.
+
+Learning Focus=
+These contracts help build understanding of:
+- Visibility modifiers (`public`, `internal`)
+- State variables and simple logic
+- Contract inheritance and modular design
+
+  
+
+
