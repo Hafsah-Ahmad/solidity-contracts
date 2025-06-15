@@ -11,5 +11,5 @@ function val1()private pure returns(int){
 int newval=val1();
 return newval;
  }
-
+//it was funnnnnnn!!!
 }
