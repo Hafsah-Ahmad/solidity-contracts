@@ -28,7 +28,14 @@ Included Contracts
   - Base and derived contracts
   - Function overriding
  
-5. ForLoop.sol=
+5. IfElse.sol=
+- Demonstrates if-else conditional logic to check number types.
+- Concepts practiced:
+  - Conditional statements
+  - Pure functions
+  - Function returns based on conditions
+
+6. ForLoop.sol=
 - Uses a for loop to calculate a sum of numbers from 1 to 5.
 - Concepts practiced:
   - for loop
