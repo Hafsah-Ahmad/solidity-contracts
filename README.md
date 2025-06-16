@@ -27,6 +27,13 @@ Included Contracts
 - Concepts practiced:
   - Base and derived contracts
   - Function overriding
+ 
+5. ForLoop.sol=
+- Uses a for loop to calculate a sum of numbers from 1 to 5.
+- Concepts practiced:
+  - for loop
+  - State variable updates
+  - Loop iteration logic
 
 
 How to Use=
