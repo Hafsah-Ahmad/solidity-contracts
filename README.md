@@ -41,6 +41,13 @@ Included Contracts
   - for loop
   - State variable updates
   - Loop iteration logic
+ 
+7. WhileLoop.sol
+- Uses a while loop to calculate a sum of numbers from 0 to 5.
+- Concepts practiced:
+  - while loop
+  - State variable updates
+  - Loop termination conditions
 
 
 How to Use=
