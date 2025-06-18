@@ -42,13 +42,31 @@ Included Contracts
   - State variable updates
   - Loop iteration logic
  
-7. WhileLoop.sol
+7. WhileLoop.sol=
 - Uses a while loop to calculate a sum of numbers from 0 to 5.
 - Concepts practiced:
   - while loop
   - State variable updates
   - Loop termination conditions
+    
+8. FixedArray.sol=
+  -Stores a fixed-size array of 5 student names.
+  -Two methods to insert values:
+  -Manually assigning each index.
+  -Using a for loop and a memory array.
+  -Concepts practiced:
+  -Fixed-size arrays
+  -Array indexing
+  -Memory keyword usage
+  -for loop
 
+9.DynamicArray.sol=
+  -Uses a dynamic array to store and manage student names.
+  -Names added using push() and removed using pop().
+  - Concepts practiced:
+  -Dynamic arrays
+  -push() and pop() methods
+  -Array manipulation at runtime
 
 How to Use=
 You can copy each of these contracts into [Remix IDE](https://remix.ethereum.org/), compile, and deploy them individually for testing and practice.
