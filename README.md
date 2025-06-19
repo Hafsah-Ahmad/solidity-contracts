@@ -59,6 +59,6 @@ These contracts help build understanding of:
 - State variables and simple logic
 - Contract inheritance and modular design
 
-  
+  I WILL STUDY TOMMORROW.
 
 
