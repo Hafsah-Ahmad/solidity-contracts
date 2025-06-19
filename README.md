@@ -60,5 +60,6 @@ These contracts help build understanding of:
 - Contract inheritance and modular design
 
   I WILL STUDY TOMMORROW.
+  i will study tomorrow.
 
 
