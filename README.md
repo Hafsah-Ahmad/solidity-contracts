@@ -61,5 +61,6 @@ These contracts help build understanding of:
 
   I WILL STUDY TOMMORROW.
   i will study tomorrow.
+  trallilili tralalulaaa
 
 
