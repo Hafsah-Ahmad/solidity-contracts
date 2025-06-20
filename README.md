@@ -68,6 +68,21 @@ Included Contracts
   -push() and pop() methods
   -Array manipulation at runtime
 
+10.SimpleMapping.sol=
+- Uses a basic "mapping(uint => string)" to store student names by roll number.
+- Concepts practiced:
+  - Basic mappings
+  - Key-value storage
+  - Memory keyword for strings
+
+11.MappingWithStruct.sol`
+- Stores detailed student information (name, age, phone) using a custom `struct`.
+- Concepts practiced:
+  - Struct definition and usage
+  - Mapping from "uint => struct"
+  - Struct initialization with named fields
+
+  
 How to Use=
 You can copy each of these contracts into [Remix IDE](https://remix.ethereum.org/), compile, and deploy them individually for testing and practice.
 
