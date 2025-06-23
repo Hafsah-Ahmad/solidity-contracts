@@ -4,6 +4,13 @@ Enums=
     -The first value has index 0, second 1, and so on.
     -Default value of an enum is the first element.
     -You can use enums inside contracts and structs.
+    Syntax:
+    enum EnumName {
+    Value1,
+    Value2,
+    Value3
+    }
+
 
 VIEW FUNCTIONS=
     -view functions read state from the blockchain but do not modify it.
@@ -16,6 +23,11 @@ VIEW FUNCTIONS=
     Gas Cost:
      -If called externally (via call):Free (no gas cost)
      -If called internally (within contract): consumes gas
+    Syntax:
+    function functionName(parameters) public view returns (returnType) {
+    // function logic that reads state variables
+    }
+
 
 PURE FUNCTIONS=
     -pure functions neither read nor write to the blockchain state.
@@ -29,6 +41,11 @@ PURE FUNCTIONS=
     Gas Cost:
      -Externally called: Free
      -Internally called: uses gas
+    Syntax:
+    function functionName(parameters) public pure returns (returnType) {
+    // function logic using only parameters and local variables
+    }
+
 
 MEMORY=
      -memory is temporary — data stored here only exists during function execution.
@@ -39,6 +56,11 @@ MEMORY=
        -Temporary variables for calculations or transformations
        -Changes made to data in memory do not affect the contract's permanent state.
        -You must explicitly specify memory when working with reference types like arrays, structs, or strings inside functions.
+     Syntax:
+     function functionName(string memory _param) public {
+    // _param is stored in memory temporarily
+    }
+
 
 STORAGE=
     -storage is permanent — data is stored on the blockchain.
@@ -49,6 +71,9 @@ STORAGE=
      -Data that should persist after function execution
      -Any changes to storage affect the contract's state permanently.
      -State variables are by default stored in storage.
+    Syntax:
+    string[] storage myArray;
+
 
 EVENTS=
    -Events are used for logging and can be listened to by external applications. When an event is emitted, it writes data to the transaction log.
@@ -56,6 +81,9 @@ EVENTS=
     event EventName(type indexed param1, type param2);
    -Use indexed to make parameters searchable in logs (up to 3 indexed allowed).
    -Call with emit.
+   Syntax:
+   event EventName(type indexed param1, type param2, ...);
+
 
 MODIFIERS=
    -Modifiers are used to change the behavior of functions — mostly for access control, validation, or reusable conditions.
