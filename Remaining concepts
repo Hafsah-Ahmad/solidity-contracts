@@ -1,0 +1,52 @@
+Enums=
+    -user-defined type that allows you to create a collection of named constant values. It's commonly used to make  your code more readable and manageable, especially when you have to represent a fixed set of possible states or options.
+    -Enums are stored as uints internally:
+    -The first value has index 0, second 1, and so on.
+    -Default value of an enum is the first element.
+    -You can use enums inside contracts and structs.
+
+VIEW FUNCTIONS=
+    -view functions read state from the blockchain but do not modify it.
+    You can access:
+     -State variables
+     -Global variables like block.timestamp, msg.sender, etc.
+    You cannot:
+     -Modify state variables
+     -Emit events
+    Gas Cost:
+     -If called externally (via call):Free (no gas cost)
+     -If called internally (within contract): consumes gas
+
+PURE FUNCTIONS=
+    -pure functions neither read nor write to the blockchain state.
+    Only allowed to use:
+     -Local variables
+     -Function arguments
+     -Mathematical operations
+    Cannot access:
+     -State variables
+     -Global variables
+    Gas Cost:
+     -Externally called: Free
+     -Internally called: uses gas
+
+MEMORY=
+     -memory is temporary — data stored here only exists during function execution.
+     -It is like RAM: fast and short-lived.
+     -It is cheaper in terms of gas because it doesn't write to the blockchain.
+     Typically used for:
+       -Function parameters (especially for strings, arrays, and structs)
+       -Temporary variables for calculations or transformations
+       -Changes made to data in memory do not affect the contract's permanent state.
+       -You must explicitly specify memory when working with reference types like arrays, structs, or strings inside functions.
+
+STORAGE=
+    -storage is permanent — data is stored on the blockchain.
+    -It is like a hard disk: slower but persistent.
+    -It is expensive in terms of gas because writing to storage consumes a lot of gas.
+    Used for:
+     -State variables
+     -Data that should persist after function execution
+     -Any changes to storage affect the contract's state permanently.
+     -State variables are by default stored in storage.
+
