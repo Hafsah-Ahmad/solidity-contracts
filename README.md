@@ -75,7 +75,7 @@ Included Contracts
   - Key-value storage
   - Memory keyword for strings
 
-11.MappingWithStruct.sol`
+11.MappingWithStruct.sol=
 - Stores detailed student information (name, age, phone) using a custom `struct`.
 - Concepts practiced:
   - Struct definition and usage
