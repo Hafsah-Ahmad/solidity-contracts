@@ -12,3 +12,4 @@ int newval=val1();
 return newval;
  }
 }
+//copy the code and run it yourself :)
