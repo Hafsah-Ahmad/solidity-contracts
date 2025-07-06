@@ -11,3 +11,4 @@ contract myContract{
         }
     }
 }
+//copy the code and test it yourself :)
