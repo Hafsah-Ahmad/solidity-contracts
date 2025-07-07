@@ -8,4 +8,4 @@ function addVal(uint rollno,string memory name) public{
 }
 
 }
-  
+  //copy the code and run it yourself :)
