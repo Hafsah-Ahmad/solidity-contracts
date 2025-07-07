@@ -13,3 +13,5 @@ contract myContract{
         return"owner";    }
 
 }
+
+//copy the code and run it yourself :)
