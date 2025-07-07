@@ -11,3 +11,4 @@ contract B is A{
         age=getVal();
     }
 }
+//copy the code and run it yourself :)
