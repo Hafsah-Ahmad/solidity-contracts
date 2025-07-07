@@ -18,6 +18,6 @@ student[rollno]=s1;
 }
 }
 
-
+//copy the code and run it yourself :)
 
   
