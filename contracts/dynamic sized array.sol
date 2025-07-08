@@ -14,3 +14,4 @@ contract myContract{
         student.pop();
       }
 }
+//copy the code and run it yourself :)
