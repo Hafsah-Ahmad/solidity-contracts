@@ -16,3 +16,5 @@ contract C is A{
         return  string(abi.encodePacked(super.val(), " ,Fatima and Jaisha!"));
     }
 }
+
+//copy the code and run it yourself :)
