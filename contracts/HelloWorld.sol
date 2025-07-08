@@ -7,3 +7,4 @@ function sayHello() public pure returns (string memory)
     return "HELLO WORLD!";
 }
 }
+//copy the code and run it yourself :)
