@@ -10,3 +10,4 @@ contract myContract{
         }
     }
 }
+//copy the code and run it yourself :)
