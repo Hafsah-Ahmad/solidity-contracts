@@ -106,7 +106,6 @@ fuckkk
 fuckk
 fuckkkk
 fuckkk
-fuckk
 
 
 
