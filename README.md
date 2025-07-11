@@ -93,7 +93,6 @@ These contracts help build understanding of:
 - Contract inheritance and modular design
 
   
-fuckkk,
 
 
 
